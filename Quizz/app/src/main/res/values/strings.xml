@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Quizz</string>
+    <string name="question_1">1.  The brain of any computer system is</string>
+    <string name="option_1a"> ALU</string>
+    <string name="option_1b"> Memory</string>
+    <string name="option_1c">CPU</string>
+    <string name="option_1d">Control unit</string>
+    <string name="question_2">2.  What difference does the 5th generation computer have from other generation computers?</string>
+    <string name="option_2a">Technological advancement</string>
+    <string name="option_2b">Scientific code</string>
+    <string name="option_2c">Object Oriented Programming</string>
+    <string name="option_2d">All of the above</string>
+    <string name="question_3">3.  Which extension need to use to save java file</string>
+    <string name="option_3a">.c</string>
+    <string name="option_3b">.html</string>
+    <string name="option_3c">.css</string>
+    <string name="option_3d">.java</string>
+    <string name="question_4">4.  World second most populated country</string>
+    <string name="option_4a">china</string>
+    <string name="option_4b">india</string>
+    <string name="option_4c">usa</string>
+    <string name="option_4d">russia</string>
+    <string name="question_5">5.  Which player has record of Highest total Runs in cricket </string>
+    <string name="option_5a">Broadman</string>
+    <string name="option_5b">Sachin</string>
+    <string name="option_5c">Virat</string>
+    <string name="option_5d">Pointing</string>
+</resources>
+

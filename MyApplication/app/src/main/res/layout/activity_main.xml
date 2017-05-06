@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.praveen.myapplication.Main">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ola"
+        android:layout_weight="2"
+        android:scaleType="fitXY"
+        android:background="@android:color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="Owner:Praveen"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif"/>
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/location"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:id="@+id/location"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bangalore"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/location"/>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/phone"
+            android:id="@+id/phone"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9980361673"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/phone"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.Ola.com"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="opening hours:10AM-6PM"
+        android:textSize="20sp"/>
+
+</LinearLayout>
